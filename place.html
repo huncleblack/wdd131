@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Nigeria</title>
+     <meta name="description" content="Explore Nigeria's culture, weather, population, and beautiful landscapes through this responsive country page.">
+
+    <meta name="author" content="Chinweuba Ogugbue">
 
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
@@ -21,8 +24,11 @@
         <section class="hero">
 
             <picture>
-                <img src="images/nigeria1.jpg" alt="Beautiful night view of Nigeria">
-                <img src="images/nigeria2.jpg" alt="Beautiful day view of Nigeria">
+                <source 
+                        srcset="images/nigeria2.webp" 
+                        media="(min-width: 768px)">
+
+                <img src="images/nigeria1.webp" alt="Beautiful day view of Nigeria">
                 
             </picture>
 
@@ -46,8 +52,7 @@
 
                 <h2>Weather</h2>
 
-                <img src="images/bright-wheather.jpg" alt="Weather Icon" class="weather-icon">
-                <img src="images/sunny-wheather.jpg" alt="Weather Icon" class="weather-icon">
+                <img src="images/weather.svg" alt="Weather Icon" class="weather-icon">
 
                 <p><strong>Temperature:</strong> <span id="temperature">8</span>°C</p>
 
