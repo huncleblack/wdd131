@@ -1,0 +1,24 @@
+.gallery section {
+    text-align: center;
+    background-color: #e9e7e7;
+    padding: 1rem;
+    border-radius: 10px;
+    margin:2rem 15rem  ;
+}
+
+.gallery section h3 {
+    margin-bottom: 0.5rem;
+    color: darkslateblue;
+}
+
+.gallery section p {
+    margin: 0.3rem 0;
+}
+
+.gallery section img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    box-shadow: 0 0 15px  black;
+    border:4px solid rgb(146, 142, 142);
+}
