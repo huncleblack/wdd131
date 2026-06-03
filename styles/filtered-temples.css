@@ -1,3 +1,7 @@
+body{
+    background-color: #978b8b;
+
+}
 .gallery section {
     text-align: center;
     background-color: #e9e7e7;
@@ -21,4 +25,31 @@
     margin-top: 1rem;
     box-shadow: 0 0 15px  black;
     border:4px solid rgb(146, 142, 142);
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(151, 150, 158);
+    transition: 0.3s;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    background-color: #978b8b;
+    padding:5px;
+    border:1px solid black;
+    border-radius:5px;
+
+}
+.header-container{
+    padding:1rem;
+    text-align:center;
+    background-color:#635656;
+    color:rgb(250, 236, 236);;
+}
+footer{
+    background-color:#635656;
+    color:rgb(250, 236, 236);
+    text-align:center;
+    padding:1rem;
 }
