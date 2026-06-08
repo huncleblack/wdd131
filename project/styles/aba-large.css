@@ -42,4 +42,29 @@
         position:static;
         border-radius:0;
     }
+
+    .culture{
+        background: #e1e4e3;
+    }
+    .culture-text{
+        background-color: #004d40;
+        text-align: center;
+        color: white;
+        margin: 5px 150px ;
+        border-radius: 30px;
+        padding: 1rem;
+    }
+    .culture-hero{
+        display:block;
+        gap: 1rem; 
+        margin-top: 10px;
+        border-radius: 15px;
+        padding:1rem;
+    }
+    .culture-hero img{
+        width:20rem;
+        border:5px solid #004d40;
+        border-radius: 30px;
+
+    }
 }
