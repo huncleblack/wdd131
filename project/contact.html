@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Aba | Contact</title>
+    <meta name="description" content="Contact Discover Aba and share your feedback.">
+    <meta name="author" content="Chinweuba Ogugbue">
+    
+
+    <link rel="stylesheet" href="styles/aba.css">
+    <link rel="stylesheet" href="styles/aba-large.css">
+
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+
+<header>
+      <img
+            src="images/state-logo.jpg"
+            alt="Aba city logo"
+            loading="lazy">
+
+
+    <div class="logo">
+        <h1>Discover Aba</h1>
+    </div>
+
+    <button id="menuBtn">&#9776;</button>
+
+    <nav id="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="intro">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        We'd love to hear from you. Share your thoughts,
+        questions, or suggestions about Aba.
+    </p>
+
+</section>
+
+<section class="form-section">
+
+    <form id="contactForm">
+
+        <label for="fullname">Full Name *</label>
+        <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            required>
+
+        <label for="email">Email Address *</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required>
+
+        <label for="topic">Topic</label>
+
+        <select id="topic" name="topic">
+
+            <option value="Tourism">Tourism</option>
+            <option value="Business">Business</option>
+            <option value="Culture">Culture</option>
+            <option value="General">General</option>
+
+        </select>
+
+        <label for="message">Message *</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required></textarea>
+
+        <input
+            type="submit"
+            value="Send Feedback">
+
+    </form>
+
+</section>
+
+<section class="intro">
+
+    <h3>Feedback Statistics</h3>
+
+    <p id="submissionCount">
+        No submissions recorded yet.
+    </p>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+        &copy; <span id="currentYear"></span>
+        Discover Aba, Nigeria | Developed By Chinweuba Ogugbue
+    </p>
+
+    <p>
+        Last Modified:
+        <span id="lastModified"></span>
+    </p>
+
+    <p>
+        <a href="references.html">References</a>
+    </p>
+
+</footer>
+
+</body>
+</html>
