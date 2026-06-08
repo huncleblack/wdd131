@@ -141,12 +141,36 @@ nav a:hover{
     background:white;
     padding:1.5rem;
     border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    box-shadow:0 10px 15px rgba(0,0,0,.6);
 }
 
 .card h3{
     color:#004d40;
     margin-bottom:.8rem;
+}
+.culture-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:0.5rem;
+    padding:2rem;
+
+}
+.card-gallery{
+    display:grid;
+    gap:0.5rem;
+    grid-template-columns: repeat(2, 2fr);
+    margin:1rem;
+}
+.card-gallery img{
+    width: 100px;
+    height:auto;
+
+
+}
+.culture-cards p{
+    background-color:#edf3f3;
+    padding:2rem;
+    margin-top:auto;
 }
 
 .spotlight{
