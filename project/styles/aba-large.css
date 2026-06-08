@@ -69,27 +69,27 @@
     }
 
     .culture-cards{
-    display:block;
-    gap:0.5rem;
-    padding:2rem;
+        display:block;
+        gap:0.5rem;
+        padding:2rem;
 
-}
-.card-gallery{
-    display:grid;
-    gap:0.5rem;
-    grid-template-columns: repeat(2, 2fr);
-    margin:1rem;
-}
-.card-gallery img{
-    width: 100px;
-    height:auto;
+    }
+    .card-gallery{
+        display:grid;
+        gap:0.5rem;
+        grid-template-columns: repeat(2, 2fr);
+        margin:1rem;
+    }
+    .card-gallery img{
+        width: 100px;
+        height:auto;
 
 
-}
-.culture-cards p{
-    background-color:#edf3f3;
-    padding:2rem;
-    margin-top:auto;
-}
+    }
+    .culture-cards p{
+        background-color:#edf3f3;
+        padding:2rem;
+        margin-top:auto;
+    }
 
 }
